@@ -13,6 +13,7 @@
 		F1D1BE95270727CF00A2837B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D1BE93270727CF00A2837B /* Main.storyboard */; };
 		F1D1BE97270727D100A2837B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D1BE96270727D100A2837B /* Assets.xcassets */; };
 		F1D1BE9A270727D100A2837B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D1BE98270727D100A2837B /* LaunchScreen.storyboard */; };
+		F1D1BEA6270843F100A2837B /* LongestCommonSubsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEA5270843F100A2837B /* LongestCommonSubsequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F1D1BE96270727D100A2837B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1D1BE99270727D100A2837B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F1D1BE9B270727D100A2837B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D1BEA5270843F100A2837B /* LongestCommonSubsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestCommonSubsequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,9 @@
 		F1D1BE8C270727CF00A2837B /* LeetCodeExamples */ = {
 			isa = PBXGroup;
 			children = (
+				F1D1BEA32707327400A2837B /* Hard */,
+				F1D1BEA22707326B00A2837B /* Medium */,
+				F1D1BEA12707326100A2837B /* Easy */,
 				F1D1BE8D270727CF00A2837B /* AppDelegate.swift */,
 				F1D1BE8F270727CF00A2837B /* SceneDelegate.swift */,
 				F1D1BE91270727CF00A2837B /* ViewController.swift */,
@@ -65,6 +70,36 @@
 				F1D1BE9B270727D100A2837B /* Info.plist */,
 			);
 			path = LeetCodeExamples;
+			sourceTree = "<group>";
+		};
+		F1D1BEA12707326100A2837B /* Easy */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Easy;
+			sourceTree = "<group>";
+		};
+		F1D1BEA22707326B00A2837B /* Medium */ = {
+			isa = PBXGroup;
+			children = (
+				F1D1BEA4270843BC00A2837B /* DynamicProgramming */,
+			);
+			path = Medium;
+			sourceTree = "<group>";
+		};
+		F1D1BEA32707327400A2837B /* Hard */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Hard;
+			sourceTree = "<group>";
+		};
+		F1D1BEA4270843BC00A2837B /* DynamicProgramming */ = {
+			isa = PBXGroup;
+			children = (
+				F1D1BEA5270843F100A2837B /* LongestCommonSubsequence.swift */,
+			);
+			path = DynamicProgramming;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +175,7 @@
 				F1D1BE92270727CF00A2837B /* ViewController.swift in Sources */,
 				F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */,
 				F1D1BE90270727CF00A2837B /* SceneDelegate.swift in Sources */,
+				F1D1BEA6270843F100A2837B /* LongestCommonSubsequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
