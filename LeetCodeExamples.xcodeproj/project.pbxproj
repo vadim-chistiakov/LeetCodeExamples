@@ -17,6 +17,7 @@
 		F1D1BEA92708548400A2837B /* BestTimeToBuyAndSellStock.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEA82708548400A2837B /* BestTimeToBuyAndSellStock.swift */; };
 		F1D1BEAB2708650100A2837B /* MaximusSubarry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEAA2708650100A2837B /* MaximusSubarry.swift */; };
 		F1D1BEB1270C37F000A2837B /* EstimatePi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB0270C37F000A2837B /* EstimatePi.swift */; };
+		F1D1BEB3270C436100A2837B /* FindDublicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB2270C436100A2837B /* FindDublicates.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		F1D1BEA82708548400A2837B /* BestTimeToBuyAndSellStock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStock.swift; sourceTree = "<group>"; };
 		F1D1BEAA2708650100A2837B /* MaximusSubarry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximusSubarry.swift; sourceTree = "<group>"; };
 		F1D1BEB0270C37F000A2837B /* EstimatePi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatePi.swift; sourceTree = "<group>"; };
+		F1D1BEB2270C436100A2837B /* FindDublicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDublicates.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 		F1D1BEA22707326B00A2837B /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				F1D1BEB2270C436100A2837B /* FindDublicates.swift */,
 				F1D1BEA4270843BC00A2837B /* DynamicProgramming */,
 			);
 			path = Medium;
@@ -189,6 +192,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1D1BEB3270C436100A2837B /* FindDublicates.swift in Sources */,
 				F1D1BEB1270C37F000A2837B /* EstimatePi.swift in Sources */,
 				F1D1BE92270727CF00A2837B /* ViewController.swift in Sources */,
 				F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */,

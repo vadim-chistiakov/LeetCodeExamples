@@ -11,6 +11,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print(findDublicates([1,2,3,4,5,6,8,3,7]))
     }
 
 
