@@ -18,6 +18,7 @@
 		F1D1BEAB2708650100A2837B /* MaximusSubarry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEAA2708650100A2837B /* MaximusSubarry.swift */; };
 		F1D1BEB1270C37F000A2837B /* EstimatePi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB0270C37F000A2837B /* EstimatePi.swift */; };
 		F1D1BEB3270C436100A2837B /* FindDublicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB2270C436100A2837B /* FindDublicates.swift */; };
+		F1D1BEB5270C784700A2837B /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB4270C784700A2837B /* HouseRobber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		F1D1BEAA2708650100A2837B /* MaximusSubarry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximusSubarry.swift; sourceTree = "<group>"; };
 		F1D1BEB0270C37F000A2837B /* EstimatePi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatePi.swift; sourceTree = "<group>"; };
 		F1D1BEB2270C436100A2837B /* FindDublicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDublicates.swift; sourceTree = "<group>"; };
+		F1D1BEB4270C784700A2837B /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				F1D1BEA5270843F100A2837B /* LongestCommonSubsequence.swift */,
+				F1D1BEB4270C784700A2837B /* HouseRobber.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D1BEB3270C436100A2837B /* FindDublicates.swift in Sources */,
+				F1D1BEB5270C784700A2837B /* HouseRobber.swift in Sources */,
 				F1D1BEB1270C37F000A2837B /* EstimatePi.swift in Sources */,
 				F1D1BE92270727CF00A2837B /* ViewController.swift in Sources */,
 				F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */,
