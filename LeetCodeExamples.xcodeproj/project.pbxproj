@@ -19,6 +19,7 @@
 		F1D1BEB1270C37F000A2837B /* EstimatePi.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB0270C37F000A2837B /* EstimatePi.swift */; };
 		F1D1BEB3270C436100A2837B /* FindDublicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB2270C436100A2837B /* FindDublicates.swift */; };
 		F1D1BEB5270C784700A2837B /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB4270C784700A2837B /* HouseRobber.swift */; };
+		F1D1BEBF270F06D000A2837B /* PermutationInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEBE270F06D000A2837B /* PermutationInString.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F1D1BEB0270C37F000A2837B /* EstimatePi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EstimatePi.swift; sourceTree = "<group>"; };
 		F1D1BEB2270C436100A2837B /* FindDublicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDublicates.swift; sourceTree = "<group>"; };
 		F1D1BEB4270C784700A2837B /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
+		F1D1BEBE270F06D000A2837B /* PermutationInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationInString.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				F1D1BEB2270C436100A2837B /* FindDublicates.swift */,
 				F1D1BEA4270843BC00A2837B /* DynamicProgramming */,
+				F1D1BEBE270F06D000A2837B /* PermutationInString.swift */,
 			);
 			path = Medium;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				F1D1BE90270727CF00A2837B /* SceneDelegate.swift in Sources */,
 				F1D1BEAB2708650100A2837B /* MaximusSubarry.swift in Sources */,
 				F1D1BEA92708548400A2837B /* BestTimeToBuyAndSellStock.swift in Sources */,
+				F1D1BEBF270F06D000A2837B /* PermutationInString.swift in Sources */,
 				F1D1BEA6270843F100A2837B /* LongestCommonSubsequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
