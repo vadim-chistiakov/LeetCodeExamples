@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */; };
 		F1A6FA4B2718948F00DC7B5D /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A6FA4A2718948F00DC7B5D /* RemoveLinkedListElements.swift */; };
 		F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE8D270727CF00A2837B /* AppDelegate.swift */; };
 		F1D1BE90270727CF00A2837B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE8F270727CF00A2837B /* SceneDelegate.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsMonotonicArrai.swift; sourceTree = "<group>"; };
 		F1A6FA4A2718948F00DC7B5D /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
 		F1D1BE8A270727CF00A2837B /* LeetCodeExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1BE8D270727CF00A2837B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -53,6 +55,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1864E99271EF86900DBF21B /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		F1A6FA492718947A00DC7B5D /* LinkedList */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +107,7 @@
 		F1D1BEA12707326100A2837B /* Easy */ = {
 			isa = PBXGroup;
 			children = (
+				F1864E99271EF86900DBF21B /* Array */,
 				F1A6FA492718947A00DC7B5D /* LinkedList */,
 				F1D1BEA72708546F00A2837B /* DynamicProgramming */,
 				F1D1BEB0270C37F000A2837B /* EstimatePi.swift */,
@@ -211,6 +222,7 @@
 			files = (
 				F1D1BEB3270C436100A2837B /* FindDublicates.swift in Sources */,
 				F1D1BEB5270C784700A2837B /* HouseRobber.swift in Sources */,
+				F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */,
 				F1D1BEB1270C37F000A2837B /* EstimatePi.swift in Sources */,
 				F1D1BE92270727CF00A2837B /* ViewController.swift in Sources */,
 				F1A6FA4B2718948F00DC7B5D /* RemoveLinkedListElements.swift in Sources */,
@@ -366,15 +378,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WJNW5M2NXF;
+				DEVELOPMENT_TEAM = 37QDW9VYR6;
 				INFOPLIST_FILE = LeetCodeExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CV.LeetCodeExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = chistyakov.LeetCodeExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -385,15 +399,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WJNW5M2NXF;
+				DEVELOPMENT_TEAM = 37QDW9VYR6;
 				INFOPLIST_FILE = LeetCodeExamples/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = CV.LeetCodeExamples;
+				PRODUCT_BUNDLE_IDENTIFIER = chistyakov.LeetCodeExamples;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

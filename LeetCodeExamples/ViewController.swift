@@ -8,12 +8,16 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(findDublicates([1,2,3,4,5,6,8,3,7]))
+        let st = "sdfsdfdfg"
+        let arr = Array(st)
+
+        let dict: [Character: Int] = arr.reduce([:]) { result, char in
+            var result = result
+            result[char, default: 0] += 1
+            return result
+        }
     }
-
-
 }
 
