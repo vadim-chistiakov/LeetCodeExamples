@@ -14,8 +14,7 @@ func rob(_ nums: [Int]) -> Int {
     dp.append(nums[0])
     
     for index in 1..<nums.count {
-        let current = nums[index]
-        dp.append(max(dp[index-1] + current, dp[index]))
+        dp.append(max(dp[index-1] + nums[index], dp[index]))
     }
     return dp[nums.count]
 }

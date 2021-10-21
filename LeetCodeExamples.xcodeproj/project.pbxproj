@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */; };
 		F1864E9E27218D6100DBF21B /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864E9D27218D6100DBF21B /* FloodFill.swift */; };
+		F1864EA12721A30D00DBF21B /* MaxAreaOfIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EA02721A30D00DBF21B /* MaxAreaOfIsland.swift */; };
+		F1864EA32721AAA800DBF21B /* IslandPerimeter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EA22721AAA800DBF21B /* IslandPerimeter.swift */; };
+		F1864EA52721C21200DBF21B /* MinCostClimbingStairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EA42721C21200DBF21B /* MinCostClimbingStairs.swift */; };
 		F1A6FA4B2718948F00DC7B5D /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A6FA4A2718948F00DC7B5D /* RemoveLinkedListElements.swift */; };
 		F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE8D270727CF00A2837B /* AppDelegate.swift */; };
 		F1D1BE90270727CF00A2837B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE8F270727CF00A2837B /* SceneDelegate.swift */; };
@@ -28,6 +31,9 @@
 /* Begin PBXFileReference section */
 		F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsMonotonicArrai.swift; sourceTree = "<group>"; };
 		F1864E9D27218D6100DBF21B /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
+		F1864EA02721A30D00DBF21B /* MaxAreaOfIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaOfIsland.swift; sourceTree = "<group>"; };
+		F1864EA22721AAA800DBF21B /* IslandPerimeter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IslandPerimeter.swift; sourceTree = "<group>"; };
+		F1864EA42721C21200DBF21B /* MinCostClimbingStairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinCostClimbingStairs.swift; sourceTree = "<group>"; };
 		F1A6FA4A2718948F00DC7B5D /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
 		F1D1BE8A270727CF00A2837B /* LeetCodeExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1BE8D270727CF00A2837B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -69,6 +75,15 @@
 			isa = PBXGroup;
 			children = (
 				F1864E9D27218D6100DBF21B /* FloodFill.swift */,
+				F1864EA22721AAA800DBF21B /* IslandPerimeter.swift */,
+			);
+			path = DeepthFirstSearch;
+			sourceTree = "<group>";
+		};
+		F1864E9F2721A2F100DBF21B /* DeepthFirstSearch */ = {
+			isa = PBXGroup;
+			children = (
+				F1864EA02721A30D00DBF21B /* MaxAreaOfIsland.swift */,
 			);
 			path = DeepthFirstSearch;
 			sourceTree = "<group>";
@@ -129,6 +144,7 @@
 		F1D1BEA22707326B00A2837B /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				F1864E9F2721A2F100DBF21B /* DeepthFirstSearch */,
 				F1D1BEB2270C436100A2837B /* FindDublicates.swift */,
 				F1D1BEA4270843BC00A2837B /* DynamicProgramming */,
 				F1D1BEBE270F06D000A2837B /* PermutationInString.swift */,
@@ -157,6 +173,7 @@
 			children = (
 				F1D1BEA82708548400A2837B /* BestTimeToBuyAndSellStock.swift */,
 				F1D1BEAA2708650100A2837B /* MaximusSubarry.swift */,
+				F1864EA42721C21200DBF21B /* MinCostClimbingStairs.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -234,6 +251,8 @@
 				F1D1BEB3270C436100A2837B /* FindDublicates.swift in Sources */,
 				F1D1BEB5270C784700A2837B /* HouseRobber.swift in Sources */,
 				F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */,
+				F1864EA32721AAA800DBF21B /* IslandPerimeter.swift in Sources */,
+				F1864EA12721A30D00DBF21B /* MaxAreaOfIsland.swift in Sources */,
 				F1D1BEB1270C37F000A2837B /* EstimatePi.swift in Sources */,
 				F1D1BE92270727CF00A2837B /* ViewController.swift in Sources */,
 				F1A6FA4B2718948F00DC7B5D /* RemoveLinkedListElements.swift in Sources */,
@@ -243,6 +262,7 @@
 				F1D1BEAB2708650100A2837B /* MaximusSubarry.swift in Sources */,
 				F1D1BEA92708548400A2837B /* BestTimeToBuyAndSellStock.swift in Sources */,
 				F1D1BEBF270F06D000A2837B /* PermutationInString.swift in Sources */,
+				F1864EA52721C21200DBF21B /* MinCostClimbingStairs.swift in Sources */,
 				F1D1BEA6270843F100A2837B /* LongestCommonSubsequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
