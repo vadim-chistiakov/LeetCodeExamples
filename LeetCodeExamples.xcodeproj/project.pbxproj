@@ -26,6 +26,7 @@
 		F1D1BEB3270C436100A2837B /* FindDublicates.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB2270C436100A2837B /* FindDublicates.swift */; };
 		F1D1BEB5270C784700A2837B /* HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEB4270C784700A2837B /* HouseRobber.swift */; };
 		F1D1BEBF270F06D000A2837B /* PermutationInString.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BEBE270F06D000A2837B /* PermutationInString.swift */; };
+		F1F62D8C272591A100F6DE33 /* DeleteAndEarn.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1F62D8B272591A100F6DE33 /* DeleteAndEarn.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		F1D1BEB2270C436100A2837B /* FindDublicates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindDublicates.swift; sourceTree = "<group>"; };
 		F1D1BEB4270C784700A2837B /* HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseRobber.swift; sourceTree = "<group>"; };
 		F1D1BEBE270F06D000A2837B /* PermutationInString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PermutationInString.swift; sourceTree = "<group>"; };
+		F1F62D8B272591A100F6DE33 /* DeleteAndEarn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeleteAndEarn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +166,7 @@
 			children = (
 				F1D1BEA5270843F100A2837B /* LongestCommonSubsequence.swift */,
 				F1D1BEB4270C784700A2837B /* HouseRobber.swift */,
+				F1F62D8B272591A100F6DE33 /* DeleteAndEarn.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */,
 				F1D1BE90270727CF00A2837B /* SceneDelegate.swift in Sources */,
 				F1864E9E27218D6100DBF21B /* FloodFill.swift in Sources */,
+				F1F62D8C272591A100F6DE33 /* DeleteAndEarn.swift in Sources */,
 				F1D1BEAB2708650100A2837B /* MaximusSubarry.swift in Sources */,
 				F1D1BEA92708548400A2837B /* BestTimeToBuyAndSellStock.swift in Sources */,
 				F1D1BEBF270F06D000A2837B /* PermutationInString.swift in Sources */,
