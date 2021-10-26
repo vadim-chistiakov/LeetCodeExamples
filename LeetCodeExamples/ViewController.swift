@@ -10,7 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(rob2([2,3,2]))
+        print(updateMatrix([[0,0,0],[0,1,0],[1,1,1]]))
     }
 }
 
