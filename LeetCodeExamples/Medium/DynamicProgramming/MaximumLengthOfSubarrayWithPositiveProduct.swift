@@ -1,5 +1,5 @@
 //
-//  Maximum LengthOfSubarrayWithPositiveProduct.swift
+//  MaximumLengthOfSubarrayWithPositiveProduct.swift
 //  LeetCodeExamples
 //
 //  Created by Vadim Chistiakov on 26.10.2021.
