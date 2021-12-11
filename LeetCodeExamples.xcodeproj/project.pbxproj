@@ -15,7 +15,11 @@
 		F1864EA72726F9F900DBF21B /* 01Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EA62726F9F900DBF21B /* 01Matrix.swift */; };
 		F1864EA92728129B00DBF21B /* MaximumLengthOfSubarrayWithPositiveProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EA82728129B00DBF21B /* MaximumLengthOfSubarrayWithPositiveProduct.swift */; };
 		F1864EDB272EF87400DBF21B /* BestTimeToBuyAndSellStockWithTransactionFee.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EDA272EF87400DBF21B /* BestTimeToBuyAndSellStockWithTransactionFee.swift */; };
+		F1864EDD272F032A00DBF21B /* BestTimeToBuyAndSellStockWithCooldown.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EDC272F032A00DBF21B /* BestTimeToBuyAndSellStockWithCooldown.swift */; };
+		F19841602764D6C20006F266 /* SpiralMatrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = F198415F2764D6C20006F266 /* SpiralMatrix.swift */; };
 		F1A6FA4B2718948F00DC7B5D /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A6FA4A2718948F00DC7B5D /* RemoveLinkedListElements.swift */; };
+		F1B69981273037FA0047FED6 /* WordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B69980273037FA0047FED6 /* WordBreak.swift */; };
+		F1B6998427305B320047FED6 /* ArithmeticSlices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6998327305B320047FED6 /* ArithmeticSlices.swift */; };
 		F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE8D270727CF00A2837B /* AppDelegate.swift */; };
 		F1D1BE90270727CF00A2837B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE8F270727CF00A2837B /* SceneDelegate.swift */; };
 		F1D1BE92270727CF00A2837B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE91270727CF00A2837B /* ViewController.swift */; };
@@ -41,7 +45,11 @@
 		F1864EA62726F9F900DBF21B /* 01Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 01Matrix.swift; sourceTree = "<group>"; };
 		F1864EA82728129B00DBF21B /* MaximumLengthOfSubarrayWithPositiveProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaximumLengthOfSubarrayWithPositiveProduct.swift; sourceTree = "<group>"; };
 		F1864EDA272EF87400DBF21B /* BestTimeToBuyAndSellStockWithTransactionFee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStockWithTransactionFee.swift; sourceTree = "<group>"; };
+		F1864EDC272F032A00DBF21B /* BestTimeToBuyAndSellStockWithCooldown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BestTimeToBuyAndSellStockWithCooldown.swift; sourceTree = "<group>"; };
+		F198415F2764D6C20006F266 /* SpiralMatrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpiralMatrix.swift; sourceTree = "<group>"; };
 		F1A6FA4A2718948F00DC7B5D /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
+		F1B69980273037FA0047FED6 /* WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
+		F1B6998327305B320047FED6 /* ArithmeticSlices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticSlices.swift; sourceTree = "<group>"; };
 		F1D1BE8A270727CF00A2837B /* LeetCodeExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1BE8D270727CF00A2837B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D1BE8F270727CF00A2837B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -105,6 +113,23 @@
 			path = LinkedList;
 			sourceTree = "<group>";
 		};
+		F1B6997F273037EE0047FED6 /* String */ = {
+			isa = PBXGroup;
+			children = (
+				F1B69980273037FA0047FED6 /* WordBreak.swift */,
+			);
+			path = String;
+			sourceTree = "<group>";
+		};
+		F1B6998227305B210047FED6 /* Array */ = {
+			isa = PBXGroup;
+			children = (
+				F1B6998327305B320047FED6 /* ArithmeticSlices.swift */,
+				F198415F2764D6C20006F266 /* SpiralMatrix.swift */,
+			);
+			path = Array;
+			sourceTree = "<group>";
+		};
 		F1D1BE81270727CF00A2837B = {
 			isa = PBXGroup;
 			children = (
@@ -153,6 +178,8 @@
 		F1D1BEA22707326B00A2837B /* Medium */ = {
 			isa = PBXGroup;
 			children = (
+				F1B6998227305B210047FED6 /* Array */,
+				F1B6997F273037EE0047FED6 /* String */,
 				F1864E9F2721A2F100DBF21B /* DeepthFirstSearch */,
 				F1D1BEB2270C436100A2837B /* FindDublicates.swift */,
 				F1D1BEA4270843BC00A2837B /* DynamicProgramming */,
@@ -176,6 +203,7 @@
 				F1D1BEB4270C784700A2837B /* HouseRobber.swift */,
 				F1F62D8B272591A100F6DE33 /* DeleteAndEarn.swift */,
 				F1864EDA272EF87400DBF21B /* BestTimeToBuyAndSellStockWithTransactionFee.swift */,
+				F1864EDC272F032A00DBF21B /* BestTimeToBuyAndSellStockWithCooldown.swift */,
 			);
 			path = DynamicProgramming;
 			sourceTree = "<group>";
@@ -261,7 +289,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D1BEB3270C436100A2837B /* FindDublicates.swift in Sources */,
+				F1B69981273037FA0047FED6 /* WordBreak.swift in Sources */,
 				F1D1BEB5270C784700A2837B /* HouseRobber.swift in Sources */,
+				F1864EDD272F032A00DBF21B /* BestTimeToBuyAndSellStockWithCooldown.swift in Sources */,
 				F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */,
 				F1864EA32721AAA800DBF21B /* IslandPerimeter.swift in Sources */,
 				F1864EA12721A30D00DBF21B /* MaxAreaOfIsland.swift in Sources */,
@@ -271,6 +301,7 @@
 				F1A6FA4B2718948F00DC7B5D /* RemoveLinkedListElements.swift in Sources */,
 				F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */,
 				F1D1BE90270727CF00A2837B /* SceneDelegate.swift in Sources */,
+				F19841602764D6C20006F266 /* SpiralMatrix.swift in Sources */,
 				F1864E9E27218D6100DBF21B /* FloodFill.swift in Sources */,
 				F1864EA72726F9F900DBF21B /* 01Matrix.swift in Sources */,
 				F1F62D8C272591A100F6DE33 /* DeleteAndEarn.swift in Sources */,
@@ -278,6 +309,7 @@
 				F1D1BEA92708548400A2837B /* BestTimeToBuyAndSellStock.swift in Sources */,
 				F1864EA92728129B00DBF21B /* MaximumLengthOfSubarrayWithPositiveProduct.swift in Sources */,
 				F1D1BEBF270F06D000A2837B /* PermutationInString.swift in Sources */,
+				F1B6998427305B320047FED6 /* ArithmeticSlices.swift in Sources */,
 				F1864EA52721C21200DBF21B /* MinCostClimbingStairs.swift in Sources */,
 				F1D1BEA6270843F100A2837B /* LongestCommonSubsequence.swift in Sources */,
 			);
