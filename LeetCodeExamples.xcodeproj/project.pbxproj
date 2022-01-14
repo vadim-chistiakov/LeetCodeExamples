@@ -20,6 +20,7 @@
 		F1A6FA4B2718948F00DC7B5D /* RemoveLinkedListElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A6FA4A2718948F00DC7B5D /* RemoveLinkedListElements.swift */; };
 		F1B69981273037FA0047FED6 /* WordBreak.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B69980273037FA0047FED6 /* WordBreak.swift */; };
 		F1B6998427305B320047FED6 /* ArithmeticSlices.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B6998327305B320047FED6 /* ArithmeticSlices.swift */; };
+		F1CB8B512791FC6600F78F9E /* ThreadSafeObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CB8B502791FC6600F78F9E /* ThreadSafeObserver.swift */; };
 		F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE8D270727CF00A2837B /* AppDelegate.swift */; };
 		F1D1BE90270727CF00A2837B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE8F270727CF00A2837B /* SceneDelegate.swift */; };
 		F1D1BE92270727CF00A2837B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D1BE91270727CF00A2837B /* ViewController.swift */; };
@@ -50,6 +51,7 @@
 		F1A6FA4A2718948F00DC7B5D /* RemoveLinkedListElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoveLinkedListElements.swift; sourceTree = "<group>"; };
 		F1B69980273037FA0047FED6 /* WordBreak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordBreak.swift; sourceTree = "<group>"; };
 		F1B6998327305B320047FED6 /* ArithmeticSlices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArithmeticSlices.swift; sourceTree = "<group>"; };
+		F1CB8B502791FC6600F78F9E /* ThreadSafeObserver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeObserver.swift; sourceTree = "<group>"; };
 		F1D1BE8A270727CF00A2837B /* LeetCodeExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCodeExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D1BE8D270727CF00A2837B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F1D1BE8F270727CF00A2837B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,14 @@
 			path = Array;
 			sourceTree = "<group>";
 		};
+		F1CB8B4F2791FC4E00F78F9E /* Interview */ = {
+			isa = PBXGroup;
+			children = (
+				F1CB8B502791FC6600F78F9E /* ThreadSafeObserver.swift */,
+			);
+			path = Interview;
+			sourceTree = "<group>";
+		};
 		F1D1BE81270727CF00A2837B = {
 			isa = PBXGroup;
 			children = (
@@ -149,6 +159,7 @@
 		F1D1BE8C270727CF00A2837B /* LeetCodeExamples */ = {
 			isa = PBXGroup;
 			children = (
+				F1CB8B4F2791FC4E00F78F9E /* Interview */,
 				F1D1BEA32707327400A2837B /* Hard */,
 				F1D1BEA22707326B00A2837B /* Medium */,
 				F1D1BEA12707326100A2837B /* Easy */,
@@ -307,6 +318,7 @@
 				F1F62D8C272591A100F6DE33 /* DeleteAndEarn.swift in Sources */,
 				F1D1BEAB2708650100A2837B /* MaximusSubarry.swift in Sources */,
 				F1D1BEA92708548400A2837B /* BestTimeToBuyAndSellStock.swift in Sources */,
+				F1CB8B512791FC6600F78F9E /* ThreadSafeObserver.swift in Sources */,
 				F1864EA92728129B00DBF21B /* MaximumLengthOfSubarrayWithPositiveProduct.swift in Sources */,
 				F1D1BEBF270F06D000A2837B /* PermutationInString.swift in Sources */,
 				F1B6998427305B320047FED6 /* ArithmeticSlices.swift in Sources */,
