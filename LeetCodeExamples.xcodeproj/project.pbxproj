@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F118F86827A1813100E18FAF /* ThreadSafeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118F86727A1813100E18FAF /* ThreadSafeArray.swift */; };
 		F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */; };
 		F1864E9E27218D6100DBF21B /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864E9D27218D6100DBF21B /* FloodFill.swift */; };
 		F1864EA12721A30D00DBF21B /* MaxAreaOfIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EA02721A30D00DBF21B /* MaxAreaOfIsland.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F118F86727A1813100E18FAF /* ThreadSafeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeArray.swift; sourceTree = "<group>"; };
 		F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsMonotonicArrai.swift; sourceTree = "<group>"; };
 		F1864E9D27218D6100DBF21B /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		F1864EA02721A30D00DBF21B /* MaxAreaOfIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaOfIsland.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				F1CB8B502791FC6600F78F9E /* ThreadSafeObserver.swift */,
+				F118F86727A1813100E18FAF /* ThreadSafeArray.swift */,
 			);
 			path = Interview;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				F1B69981273037FA0047FED6 /* WordBreak.swift in Sources */,
 				F1D1BEB5270C784700A2837B /* HouseRobber.swift in Sources */,
 				F1864EDD272F032A00DBF21B /* BestTimeToBuyAndSellStockWithCooldown.swift in Sources */,
+				F118F86827A1813100E18FAF /* ThreadSafeArray.swift in Sources */,
 				F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */,
 				F1864EA32721AAA800DBF21B /* IslandPerimeter.swift in Sources */,
 				F1864EA12721A30D00DBF21B /* MaxAreaOfIsland.swift in Sources */,

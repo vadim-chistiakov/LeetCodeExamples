@@ -10,12 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
-        let num = ""
-        let n1 = ListNode(2, ListNode(0, ListNode(0, ListNode(1))))
-        let n2 = ListNode(5, ListNode(6, ListNode(4, ListNode(9))))
-
-        print(foo())
-        
+        ThreadSafeObserverTests.test()
     }
     
     func foo() {
