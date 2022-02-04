@@ -103,13 +103,17 @@ final class ThreadSafeArray<Element> {
         }
     }
     
-    
-    func remove(at index: Int) {
-        
+    func allValue() -> [Element] {
+        queue.sync {
+            return array
+        }
     }
     
-    func removeLast() {
-        
+    
+    func insert( _ element: Element, at index: Int) {
+        queue.async(flags: .barrier) {
+            self.array.insert(element, at: index)
+        }
     }
 }
 

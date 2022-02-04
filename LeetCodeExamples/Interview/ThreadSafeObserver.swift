@@ -18,12 +18,23 @@ protocol Observable {
     func hasObserver(_ observer: Observer, forEvent event: String) -> Bool
 }
 
-final class WeakObserver: NSObject {
+final class WeakObserver: Hashable {
     
     weak var observer: Observer?
     
     init(_ observer: Observer) {
         self.observer = observer
+    }
+    
+    func hash(into hasher: inout Hasher) {
+        guard let observer = observer else { return }
+        hasher.combine(ObjectIdentifier(observer))
+    }
+    
+    static func == (lhs: WeakObserver, rhs: WeakObserver) -> Bool {
+        guard let lObserver = lhs.observer,
+                let rObserver = rhs.observer else { return false }
+        return ObjectIdentifier(lObserver) == ObjectIdentifier(rObserver)
     }
 }
 

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		F118F86827A1813100E18FAF /* ThreadSafeArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118F86727A1813100E18FAF /* ThreadSafeArray.swift */; };
+		F118F86D27A970C800E18FAF /* LongestPalindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118F86C27A970C800E18FAF /* LongestPalindrome.swift */; };
+		F118F87027AD646F00E18FAF /* AsyncWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118F86F27AD646F00E18FAF /* AsyncWorker.swift */; };
+		F118F87327AD6CDD00E18FAF /* AsyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118F87227AD6CDD00E18FAF /* AsyncTests.swift */; };
+		F118F87527AD7B2700E18FAF /* FindEmptySeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118F87427AD7B2700E18FAF /* FindEmptySeat.swift */; };
 		F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */; };
 		F1864E9E27218D6100DBF21B /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864E9D27218D6100DBF21B /* FloodFill.swift */; };
 		F1864EA12721A30D00DBF21B /* MaxAreaOfIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EA02721A30D00DBF21B /* MaxAreaOfIsland.swift */; };
@@ -40,6 +44,10 @@
 
 /* Begin PBXFileReference section */
 		F118F86727A1813100E18FAF /* ThreadSafeArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreadSafeArray.swift; sourceTree = "<group>"; };
+		F118F86C27A970C800E18FAF /* LongestPalindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPalindrome.swift; sourceTree = "<group>"; };
+		F118F86F27AD646F00E18FAF /* AsyncWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncWorker.swift; sourceTree = "<group>"; };
+		F118F87227AD6CDD00E18FAF /* AsyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTests.swift; sourceTree = "<group>"; };
+		F118F87427AD7B2700E18FAF /* FindEmptySeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindEmptySeat.swift; sourceTree = "<group>"; };
 		F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsMonotonicArrai.swift; sourceTree = "<group>"; };
 		F1864E9D27218D6100DBF21B /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		F1864EA02721A30D00DBF21B /* MaxAreaOfIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaOfIsland.swift; sourceTree = "<group>"; };
@@ -121,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				F1B69980273037FA0047FED6 /* WordBreak.swift */,
+				F118F86C27A970C800E18FAF /* LongestPalindrome.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -139,6 +148,9 @@
 			children = (
 				F1CB8B502791FC6600F78F9E /* ThreadSafeObserver.swift */,
 				F118F86727A1813100E18FAF /* ThreadSafeArray.swift */,
+				F118F86F27AD646F00E18FAF /* AsyncWorker.swift */,
+				F118F87227AD6CDD00E18FAF /* AsyncTests.swift */,
+				F118F87427AD7B2700E18FAF /* FindEmptySeat.swift */,
 			);
 			path = Interview;
 			sourceTree = "<group>";
@@ -310,12 +322,14 @@
 				F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */,
 				F1864EA32721AAA800DBF21B /* IslandPerimeter.swift in Sources */,
 				F1864EA12721A30D00DBF21B /* MaxAreaOfIsland.swift in Sources */,
+				F118F87027AD646F00E18FAF /* AsyncWorker.swift in Sources */,
 				F1864EDB272EF87400DBF21B /* BestTimeToBuyAndSellStockWithTransactionFee.swift in Sources */,
 				F1D1BEB1270C37F000A2837B /* EstimatePi.swift in Sources */,
 				F1D1BE92270727CF00A2837B /* ViewController.swift in Sources */,
 				F1A6FA4B2718948F00DC7B5D /* RemoveLinkedListElements.swift in Sources */,
 				F1D1BE8E270727CF00A2837B /* AppDelegate.swift in Sources */,
 				F1D1BE90270727CF00A2837B /* SceneDelegate.swift in Sources */,
+				F118F86D27A970C800E18FAF /* LongestPalindrome.swift in Sources */,
 				F19841602764D6C20006F266 /* SpiralMatrix.swift in Sources */,
 				F1864E9E27218D6100DBF21B /* FloodFill.swift in Sources */,
 				F1864EA72726F9F900DBF21B /* 01Matrix.swift in Sources */,
@@ -325,9 +339,11 @@
 				F1CB8B512791FC6600F78F9E /* ThreadSafeObserver.swift in Sources */,
 				F1864EA92728129B00DBF21B /* MaximumLengthOfSubarrayWithPositiveProduct.swift in Sources */,
 				F1D1BEBF270F06D000A2837B /* PermutationInString.swift in Sources */,
+				F118F87327AD6CDD00E18FAF /* AsyncTests.swift in Sources */,
 				F1B6998427305B320047FED6 /* ArithmeticSlices.swift in Sources */,
 				F1864EA52721C21200DBF21B /* MinCostClimbingStairs.swift in Sources */,
 				F1D1BEA6270843F100A2837B /* LongestCommonSubsequence.swift in Sources */,
+				F118F87527AD7B2700E18FAF /* FindEmptySeat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
