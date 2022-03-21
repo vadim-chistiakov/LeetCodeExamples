@@ -12,6 +12,7 @@
 		F118F87027AD646F00E18FAF /* AsyncWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118F86F27AD646F00E18FAF /* AsyncWorker.swift */; };
 		F118F87327AD6CDD00E18FAF /* AsyncTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118F87227AD6CDD00E18FAF /* AsyncTests.swift */; };
 		F118F87527AD7B2700E18FAF /* FindEmptySeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = F118F87427AD7B2700E18FAF /* FindEmptySeat.swift */; };
+		F12FB12327E3770300FB9C96 /* 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = F12FB12227E3770300FB9C96 /* 3Sum.swift */; };
 		F1864E9B271EF87800DBF21B /* IsMonotonicArrai.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */; };
 		F1864E9E27218D6100DBF21B /* FloodFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864E9D27218D6100DBF21B /* FloodFill.swift */; };
 		F1864EA12721A30D00DBF21B /* MaxAreaOfIsland.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1864EA02721A30D00DBF21B /* MaxAreaOfIsland.swift */; };
@@ -48,6 +49,7 @@
 		F118F86F27AD646F00E18FAF /* AsyncWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncWorker.swift; sourceTree = "<group>"; };
 		F118F87227AD6CDD00E18FAF /* AsyncTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncTests.swift; sourceTree = "<group>"; };
 		F118F87427AD7B2700E18FAF /* FindEmptySeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindEmptySeat.swift; sourceTree = "<group>"; };
+		F12FB12227E3770300FB9C96 /* 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 3Sum.swift; sourceTree = "<group>"; };
 		F1864E9A271EF87800DBF21B /* IsMonotonicArrai.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IsMonotonicArrai.swift; sourceTree = "<group>"; };
 		F1864E9D27218D6100DBF21B /* FloodFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodFill.swift; sourceTree = "<group>"; };
 		F1864EA02721A30D00DBF21B /* MaxAreaOfIsland.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaxAreaOfIsland.swift; sourceTree = "<group>"; };
@@ -139,6 +141,7 @@
 			children = (
 				F1B6998327305B320047FED6 /* ArithmeticSlices.swift */,
 				F198415F2764D6C20006F266 /* SpiralMatrix.swift */,
+				F12FB12227E3770300FB9C96 /* 3Sum.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				F1CB8B512791FC6600F78F9E /* ThreadSafeObserver.swift in Sources */,
 				F1864EA92728129B00DBF21B /* MaximumLengthOfSubarrayWithPositiveProduct.swift in Sources */,
 				F1D1BEBF270F06D000A2837B /* PermutationInString.swift in Sources */,
+				F12FB12327E3770300FB9C96 /* 3Sum.swift in Sources */,
 				F118F87327AD6CDD00E18FAF /* AsyncTests.swift in Sources */,
 				F1B6998427305B320047FED6 /* ArithmeticSlices.swift in Sources */,
 				F1864EA52721C21200DBF21B /* MinCostClimbingStairs.swift in Sources */,
